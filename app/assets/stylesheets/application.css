@@ -14,3 +14,24 @@
  *= require_tree .
  *= require_self
  */
+
+/*-- カレンダーの枠線 --*/
+.fc-unthemed th,
+.fc-unthemed td {
+  border-color: #b8b5f4;
+}
+
+/*-- カレンダーのヘッダー --*/
+.fc-day-header {
+  background: #efd2f7;
+}
+
+/*-- 土曜日 --*/
+.fc-sat {
+  color: blue;
+}
+
+/*-- 日曜日 --*/
+.fc-sun {
+  color: red;
+}

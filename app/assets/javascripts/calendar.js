@@ -1,3 +1,10 @@
 $(document).on("turbolinks:load", function() {
-  $("#calendar").fullCalendar({});
+  $("#calendar").fullCalendar({
+    firstDay: 1,
+    buttonText: {
+      today: "きょう",
+      next: "つぎ",
+      prev: "まえ"
+    }
+  });
 });
